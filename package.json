@@ -1,0 +1,19 @@
+{
+  "name": "stealth-erc5564",
+  "version": "1.0.0",
+  "description": "ERC-5564 Stealth Addresses — Solidity + Hardhat implementation",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.4.0",
+    "@noble/hashes": "^1.4.0",
+    "ethers": "^6.11.0"
+  }
+}
