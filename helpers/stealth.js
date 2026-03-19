@@ -22,7 +22,7 @@
 const { secp256k1 }   = require("@noble/curves/secp256k1");
 const { sha256 }      = require("@noble/hashes/sha256");
 const { keccak_256 }  = require("@noble/hashes/sha3");
-const { bytesToHex, hexToBytes, concatBytes } = require("@noble/hashes/utils");
+const { bytesToHex, hexToBytes } = require("@noble/hashes/utils");
 const { ethers }      = require("ethers");
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
